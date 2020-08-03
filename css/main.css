@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.menu {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 15px 0;
+  transition: all 0.1s ease;
+}
+
+.nav-link:hover {
+  color: black;
+  border-bottom: 2px solid #000;
+}
+
+.navbar input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  padding: 15px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+.intro {
+  padding-top: 80px;
+  padding-bottom: 207px;
+  background-image: url(../img/watches.jpg);
+  background-repeat: no-repeat;
+  background-position: right calc(50% - 650px) center;
+  background-size: contain;
+}
+
+.info {
+  width: 550px;
+}
+
+.info h1 {
+  font-weight: bold;
+  font-size: 54px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.info p {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 2;
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  padding-left: 50px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.red-link {
+  padding: 13px 23px;
+  background-color: rgb( 255, 99, 71);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.red-link:hover {
+  background-color: rgba( 255, 99, 71, 0.9);
+}
+
+.main-1 {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.main-1 hr {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.article-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles {
+  width: 300px;
+}
+
+.articles h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.articles p {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.learn-more-link {
+  text-decoration: none;
+  color: rgb( 255, 99, 71);
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all .3s ease;
+}
+
+.learn-more-link:hover {
+  border-bottom: 2px solid rgba( 255, 99, 71, 0.9);
+  color: rgba( 255, 99, 71, 0.9);
+}
+
+.main-2 {
+  margin-top: 0;
+  margin-bottom: 200px;
+}
+
+.main2-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-2 h1 {
+  text-transform: capitalize;
+  font-size: 64px;
+}
+
+.footer {
+  background-image: url(../img/runners.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+}
+
+.footer-info {
+  margin-left: auto;
+  color: white;
+}
+
+.footer-info p {
+  color: white;
+  border-left: 2px solid white;
+}
